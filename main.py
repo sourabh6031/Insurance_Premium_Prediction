@@ -67,3 +67,4 @@ if st.button("Predict the Premium Amount."):
     premium_pred = model.predict(processed_data)
     amount = np.round(premium_pred,0)
     st.header(amount[0])
+    st.balloons()
